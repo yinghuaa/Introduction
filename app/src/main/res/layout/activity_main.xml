@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAFFEE"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="嗨"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/txv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自我介紹"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我是靜宜大學資管二B的學生，我叫王櫻樺，我是台中人。平時的興趣是聽音樂、打排球，課外時間有加入系排練習排球，一方面是想打球，另一方面也可增進排球的實力。
+        \n\n我的個性很隨和，不太會跟其他人起爭執也覺得起爭執很累，我是個不太會表達的人，但我很擅長聆聽，常在朋友間扮演聽心事的角色。\n"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/txv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n\n動作"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dog" />
+
+
+</LinearLayout>
